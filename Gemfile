@@ -27,6 +27,7 @@ group :development, :test do
 end
 
 gem 'puma', '~> 1.6.1', :platforms => :rbx
+gem 'thin'
 
 group :test do
   gem 'factory_girl_rails', '~> 4.1.0'
