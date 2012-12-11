@@ -6,8 +6,8 @@ if Rails.env == "production"
         :domain => "gmail.com",
         :enable_starttls_auto => true,
         :authentication => :plain,
-        :user_name => "josh.fb.test3@gmail.com",
-        :password => "josh123#"
+        :user_name => "ci@joshsoftware.com",
+        :password => "josh123~"
     }
 end
 
