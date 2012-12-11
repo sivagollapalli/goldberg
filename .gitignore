@@ -17,3 +17,4 @@ coverage/*
 *.css
 config/goldberg.yml
 bin
+config/initializers/setup_mail.rb
