@@ -80,7 +80,7 @@ div#all-projects{
 /* Footer */
 div.footer {
   box-shadow: 0 0 10px rgba(0,0,0,0.3);
-  height: 40px;
+  height: 48px;
   padding: 10px;
   background-color: #fff;
 
@@ -93,13 +93,15 @@ div.footer {
     width: 50px;
   }
 
-  div.author {
+  a.author {
     font-size: 1.3em;
-    background: transparent url('/images/c42-engineering-logo.png') no-repeat;
+    background: transparent url('/images/Josh-Software-Logo.svg') no-repeat;
     line-height: 40px;
-    height: 40px;
+    height: 48px;
     padding: 0 0 0 60px;
     float: left;
+    width: 40%;
+    margin-left: 150px;
   }
 
   div.message {

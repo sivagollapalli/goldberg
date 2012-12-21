@@ -1,4 +1,6 @@
 class HomeController < ApplicationController
+  http_basic_authenticate_with :name => "goldberg", :password => "654321"
+
   before_filter :load_projects, :only => [:index, :projects_partial]
 
   def load_projects
